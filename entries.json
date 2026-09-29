@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "url": "https://mp.weixin.qq.com/s/Y82xMrfLod43b0Kj1ONNUA",
+    "title": "论文分享｜VMKernel",
+    "comment": "安全公众号 COMPASS Lab 在 2026 年 9 月的「论文分享」系列文章，中文解读 NDSS 2026 论文《Demystifying the Access Control Mechanism of ESXi VMKernel》（东南大学刘跃等）。论文主张该看的不是 VM 逃逸本身，而是逃逸后 VMKernel 安全域的访问控制机制：闭源内核的权限数据结构缺乏写保护与完整性校验，内存破坏即可进一步突破逃逸后的权限边界，并发现 14 个经 VMware 确认修复的漏洞。",
+    "sender": "方而静",
+    "publishedAt": "2026-09-28T07:46:41.084Z"
+  },
+  {
+    "id": 2,
+    "url": "https://kvachev.com/blog/posts/effect-handlers-in-cx/",
+    "title": "Combining Effect Handlers in c(x)",
+    "comment": "c(x) 语言设计者 Vsevolod Kvachev（2017 年起做该项目）在 2026 年 9 月的博客文章。他主张组合多个 effect 不必靠 monad transformer / polysemy 那套样板：在 c(x) 里 effect 就是普通的 has 方法，用类型交集与 \"or else\" 并集即可把 Option、Throw 混在同一程序里，handler 还能在运行时从外部换入。",
+    "sender": "方而静",
+    "publishedAt": "2026-09-27T13:40:17.011Z"
+  },
+  {
+    "id": 1,
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/news/mirrorz-launch/",
+    "title": "[TUNA] 教育网联合镜像站正式发布",
+    "comment": "清华开源镜像站 TUNA 的官方公告：教育网联合镜像站（MirrorZ，mirrors.cernet.edu.cn）于 2026 年 8 月 22 日发布，由 TUNA 2020 年发起，已有超过 27 家高校和科研院所加入。它与传统镜像站不同：自身不提供镜像内容，而是通过统一域名汇聚成员站点资源、按用户网络位置和站点可用状态动态调度，配置一个域名即可访问百余种开源镜像。",
+    "sender": "方而静",
+    "publishedAt": "2026-09-27T06:00:04.630Z"
+  }
+]
